@@ -24,3 +24,9 @@ Created view Index.cshtml in Views directory
 
 2023-10-12 1750
 Created Model Towels.cs in Models
+
+2023-10-12 1820
+Tring to add a scaffolding
+
+2023-10-12 1824
+Successfully added scaffolded item
