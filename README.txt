@@ -19,3 +19,8 @@ Commented out port in Properties\launchSettings.json
 2023-10-12 1718
 Added a view in Views\Home\ to craete a AboutUs page 
 
+2023-10-12 1730
+Created view Index.cshtml in Views directory
+
+2023-10-12 1750
+Created Model Towels.cs in Models
