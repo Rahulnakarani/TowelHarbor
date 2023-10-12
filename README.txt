@@ -31,10 +31,16 @@ Tring to add a scaffolding
 2023-10-12 1824
 Successfully added scaffolded item
 
-2023-10-12 1830
+2023-10-12 1840
 Run this two commands on Console for Migration
 Add-Migration InitialCreate -Context TowelHarborContext
 Update-Database -Context TowelHarborContext
 had to specify context name beacuse I accidently created two contexts
 
+2023-10-12 1842
+Running the project to show the database
+Run the project successfully
 
+2023-10-12 1852
+Created SeedData file
+Entering 10 values to populate the database
