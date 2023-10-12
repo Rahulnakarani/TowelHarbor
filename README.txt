@@ -12,3 +12,10 @@ Created README.txt
 2023-10-12 1655
 Creatd Git Repository
 
+2023-10-12 1702
+Commented out port in Properties\launchSettings.json
+ //"sslPort": 44327
+
+2023-10-12 1718
+Added a view in Views\Home\ to craete a AboutUs page 
+

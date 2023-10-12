@@ -27,6 +27,11 @@ namespace TowelHarbor.Controllers
         {
             return View();
         }
+        /*added a view for About*/
+        public IActionResult About()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
