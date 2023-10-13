@@ -62,3 +62,12 @@ Added a new field Rating and made changes in Towel.cs
 
 2023-10-12 1830
 Made changes in CRUD
+
+2023-10-12 1845
+Run commands to update the database for Ratings field
+Add-Migration Rating -Context TowelHarborContext
+Update-Database -Context TowelHarborContext
+
+2023-10-12 1855
+Rating is successfully updated in Database
+Application runs successfully

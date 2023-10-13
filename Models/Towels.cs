@@ -18,6 +18,8 @@ namespace TowelHarbor.Models
         /*Added validation for price*/
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+
+        /*Added a new field*/
         public int Rating { get; set; }
         public string Description { get; set; }
     }
