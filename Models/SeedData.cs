@@ -27,6 +27,7 @@ namespace TowelHarbor.Models
                         Material = "100% Cotton",
                         Stock = 100,
                         Price = 20,
+                        Rating = 5,
                         Description = "Indulge in the ultimate bathing experience with our spa-quality bath towel. Crafted from 100% plush cotton, it offers exceptional softness, absorbency, and durability. Its generous size ensures you're wrapped in comfort, making it perfect for a relaxing post-shower ritual."
                     },
 
@@ -37,6 +38,7 @@ namespace TowelHarbor.Models
                         Material = "Microfiber",
                         Stock = 150,
                         Price = 10,
+                        Rating = 5,
                         Description = "Elevate your hand-drying experience with our embroidered elegance hand towel. These towels are adorned with intricate and stylish embroidery, adding a touch of sophistication to your bathroom or powder room. The fine cotton fabric ensures gentle and effective drying, while the elegant design enhances your space's aesthetics."
                     },
 
@@ -47,6 +49,7 @@ namespace TowelHarbor.Models
                         Material = "100% Cotton",
                         Stock = 150,
                         Price = 25,
+                        Rating = 5,
                         Description = "Elevate your bathroom decor with our Classic Elegance bath towel. Made from high-quality, long-staple cotton, it exudes timeless sophistication and charm. The meticulously woven fabric not only feels exceptionally soft against your skin but also adds a touch of luxury to your daily routine. Wrap yourself in elegance with our carefully crafted bath towel."
                     },
                     
@@ -57,6 +60,7 @@ namespace TowelHarbor.Models
                         Material = "Linen",
                         Stock = 200,
                         Price = 20,
+                        Rating = 1,
                         Description = "Say goodbye to damp, heavy towels with our quick-dry microfiber bath towel. It's designed for modern, on-the-go lifestyles, featuring ultra-absorbent microfiber material that dries you off in no time. The lightweight and compact design makes it ideal for travel and active individuals."
                     },
 
@@ -67,6 +71,7 @@ namespace TowelHarbor.Models
                         Material = "Microfiber",
                         Stock = 158,
                         Price = 50,
+                        Rating = 5,
                         Description = "Transport yourself to a tropical paradise with our vibrant beach towel. This oversized, ultra-soft towel is perfect for a day at the beach or by the pool. Its colorful, eye-catching design features palm trees, vibrant sunsets, and soft, absorbent material that lets you relax in style."
                     },
 
@@ -77,6 +82,7 @@ namespace TowelHarbor.Models
                         Material = "Linen",
                         Stock = 50,
                         Price = 15,
+                        Rating = 2,
                         Description = "Add a touch of rustic charm to your kitchen with our Farmhouse Chic kitchen towels. These towels are not just practical but also decorative, featuring classic checkered patterns and a farmhouse-inspired color palette. They are perfect for drying dishes, lining baskets, or simply hanging on the oven handle for that cozy farmhouse look."
                     },
 
@@ -87,6 +93,7 @@ namespace TowelHarbor.Models
                         Material = "Bamboo",
                         Stock = 200,
                         Price = 20,
+                        Rating = 5,
                         Description = "Our eco-conscious bamboo bath towel is not only incredibly soft and luxurious but also eco-friendly. Crafted from sustainable bamboo fibers, it's naturally antibacterial and hypoallergenic, making it the perfect choice for those with sensitive skin. Pamper yourself while contributing to a greener planet."
                     },
 
@@ -97,6 +104,7 @@ namespace TowelHarbor.Models
                         Material = "100% Cotton",
                         Stock = 500,
                         Price = 20,
+                        Rating = 3,
                         Description = "Our kitchen towel set is a chef's best friend in the kitchen. These ultra-absorbent towels are designed to tackle spills and messes with ease. Their soft, lint-free, and quick-drying fabric makes them perfect for drying dishes, wiping counters, and even doubling as a stylish hand towel. Keep your kitchen spotless with this essential set."
                     },
 
@@ -107,6 +115,7 @@ namespace TowelHarbor.Models
                         Material = "Microfiber",
                         Stock = 100,
                         Price = 50,
+                        Rating = 5,
                         Description = "Transport yourself to a tropical paradise with our vibrant beach towel. This oversized, ultra-soft towel is perfect for a day at the beach or by the pool. Its colorful, eye-catching design features palm trees, vibrant sunsets, and soft, absorbent material that lets you relax in style."
                     },
 
@@ -117,6 +126,7 @@ namespace TowelHarbor.Models
                         Material = "Velvet",
                         Stock = 150,
                         Price = 10,
+                        Rating = 4,
                         Description = "Our velvet touch hand towel offers an exquisite, plush feel that's second to none. With its fine combed cotton fibers, these towels provide exceptional softness and quick moisture absorption. Keep them in your guest bathroom for an added touch of luxury or in your kitchen for convenient hand-drying."
                     }
                 );

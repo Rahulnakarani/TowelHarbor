@@ -44,3 +44,21 @@ Run the project successfully
 2023-10-12 1852
 Created SeedData file
 Entering 10 values to populate the database
+
+2023-10-12 1730
+Finally done with the seeddata file
+
+2023-10-12 1750
+Changing the TowelsController.cs to add the search funtionalliy 
+
+2023-10-12 1755
+Searching works successfully
+
+2023-10-12 1810
+Serching with dropdown works successfully for materials
+
+2023-10-12 1825
+Added a new field Rating and made changes in Towel.cs
+
+2023-10-12 1830
+Made changes in CRUD

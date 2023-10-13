@@ -20,9 +20,34 @@ namespace TowelHarbor.Controllers
         }
 
         // GET: Towels
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string towelMaterial, string searchString)
         {
-            return View(await _context.Towels.ToListAsync());
+            // Use LINQ to get list of genres.
+            IQueryable<string> materialQuery = from t in _context.Towels
+                                            orderby t.Material
+                                            select t.Material;
+
+            /*Updating method to use the search functionality*/
+            var towels = from t in _context.Towels
+                         select t;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                towels = towels.Where(s => s.Type.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(towelMaterial))
+            {
+                towels = towels.Where(x => x.Material == towelMaterial);
+            }
+
+            var towelMaterialVM = new TowelMeterialViewModel
+            {
+                Materials = new SelectList(await materialQuery.Distinct().ToListAsync()),
+                Towels = await towels.ToListAsync()
+            };
+
+            return View(towelMaterialVM);
         }
 
         // GET: Towels/Details/5
@@ -54,7 +79,7 @@ namespace TowelHarbor.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Type,Material,Stock,Price,Description")] Towels towels)
+        public async Task<IActionResult> Create([Bind("Id,Name,Type,Material,Stock,Price,Description,Rating")] Towels towels)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +111,7 @@ namespace TowelHarbor.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type,Material,Stock,Price,Description")] Towels towels)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type,Material,Stock,Price,Description,Rating")] Towels towels)
         {
             if (id != towels.Id)
             {
