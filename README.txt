@@ -83,3 +83,5 @@ Now starting to Edit home page.
 Added images folder in wwwroot
 Added Towel-logo.jpg
 
+2023-10-12 2035
+Completed index.cshtml

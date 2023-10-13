@@ -59,11 +59,6 @@ html {
     background-color: rgb(225, 235, 238);/*Added Background color*/
 }
 
-#logoimg {
-    background-image: url("../images/Towel-logo.jpg");
-    width:20%;
-}
-
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
