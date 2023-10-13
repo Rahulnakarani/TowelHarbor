@@ -54,8 +54,14 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    background-color: rgb(225, 235, 238);/*Added Background color*/
+}
+
+#logoimg {
+    background-image: url("../images/Towel-logo.jpg");
+    width:20%;
 }
 
 body {

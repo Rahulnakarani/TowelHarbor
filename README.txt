@@ -78,3 +78,8 @@ Validation works perfectally fine.
 
 2023-10-12 1934
 Now starting to Edit home page.
+
+2023-10-12 1948
+Added images folder in wwwroot
+Added Towel-logo.jpg
+
