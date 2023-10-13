@@ -85,3 +85,19 @@ Added Towel-logo.jpg
 
 2023-10-12 2035
 Completed index.cshtml
+
+2023-10-12 2038
+images referenced from
+https://pixabay.com
+
+2023-10-12 2311
+Updated aboutus page
+
+2023-10-12 2312
+Final Run for the project.
+
+2023-10-12 2312
+Project is running successfully
+
+2023-10-12 2313
+Final commit
