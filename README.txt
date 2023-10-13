@@ -71,3 +71,10 @@ Update-Database -Context TowelHarborContext
 2023-10-12 1855
 Rating is successfully updated in Database
 Application runs successfully
+
+2023-10-12 1908
+Addedd validation for all the fields.
+Validation works perfectally fine.
+
+2023-10-12 1934
+Now starting to Edit home page.
